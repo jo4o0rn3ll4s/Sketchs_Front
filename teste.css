@@ -1,20 +1,41 @@
-body { 
-    background-color: lightslategray;
+body {
+
+    background-color: black;
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRM2AkPF9MNp8j_mNO2GLIpxte68_Czc085aTgzpwtQAGHgXL6mAalSrCHnGFAFJpOF6OE&usqp=CAU://sites.google.com/site/gleicieneforever/_/rsrc/1348361469601/aloe-vera-babosa/planta%C3%A7%C3%A3o%20de%20ALOE%20VERA.jpg);
 }
 
-h1{
-    color: whitesmoke;
+h1 {
+    color: black;
     text-align: center;
 }
 
-.main{
-    font-family: verdana;
-    text-align: justify;
-    font-size: large;
+#backgroundImage {
+    border: none;
+    height: 100%;
+    pointer-events: none;
+    position: fixed;
+    top: 0;
+    visibility: hidden;
+    width: 100%;
 }
 
-.sub{
+.main {
+    color: black;
+    font-family: verdana;
+    text-align: justify;
+    font-size: larger;
+}
+
+.long {
+    font-family: Verdana;
+    text-align: justify;
+    font-size: medium;
+    color: darkblue;
+}
+
+.sub {
+    color: red;
+    text-align: center;
     font-family: times;
-    text-align: right;
     font-size: larger;
 }
